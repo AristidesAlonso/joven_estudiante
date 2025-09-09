@@ -1,0 +1,69 @@
+body {
+    background-color: #1a1a4f; /* azul noche vibrante */
+    color: #a3cef1; /* azul claro para texto general */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #6a0dad; /* morado intenso */
+    font-weight: 900;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+h1:hover {
+    box-shadow: 6px 6px 15px rgba(0,0,0,0.6);
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.titulo-destaque {
+    color: #ff00aa; /* fucsia neón */
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 4px rgba(255,0,170,0.6);
+}
+
+.titulo-destaque:hover {
+    box-shadow: 4px 4px 12px rgba(255,0,170,0.9);
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+p {
+    color: #c1defd; /* celeste vibrante */
+    font-size: 1.15em;
+    line-height: 1.7;
+}
+
+a {
+    color: #ff6600; /* naranja brillante */
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 4px rgba(255,102,0,0.6);
+}
+
+a:hover {
+    text-decoration: underline;
+    box-shadow: 5px 5px 15px rgba(255,102,0,0.9);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+img {
+    margin-top: 25px;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #00ffff; /* cian vibrante */
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0,255,255,0.5);
+}
+
+img:hover {
+    box-shadow: 8px 8px 20px rgba(0,255,255,0.9);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
