@@ -23,6 +23,28 @@ h1:hover {
     transition: all 0.3s ease;
     box-shadow: 1px 1px 4px rgba(255,0,170,0.6);
 }
+.presentacion__contenido__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentacion__enlaces{
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion__enlaces__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .titulo-destaque:hover {
     box-shadow: 4px 4px 12px rgba(255,0,170,0.9);
